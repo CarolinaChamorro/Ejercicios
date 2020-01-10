@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicios</title>
+</head>
+
+<body>
+    <main>
+        <div style="text-align: center;">
+            <h1 style="text-align: center;">Votos</h1>
+            <br>
+            <form>
+                <label>Seleccione la zona</label>
+                <br><br>
+                <input type="checkbox" name="zona1" id="voto1">
+                <label>Votos de la zona 1</label>
+                <br><br>
+                <input type="checkbox" name="zona2" id="voto2">
+                <label>Votos de la zona 2</label>
+                <br><br>
+            </form>
+            <input type="button" id="bZona" value="Conteo">
+            &nbsp;&nbsp;&nbsp;
+            <label>El ganador es:</label>
+            <label id="mostrarVoto"></label>
+        </div>
+        <hr>
+        <div style="text-align: center;">
+            <h1 style="text-align: center;">Invertir frase</h1>
+            <br>
+            <label>Ingrese la frase</label>
+            <input type="text"  id="fraseIn">
+            <br><br>
+            <input type="button" id="bInvertir" value="Invertir">
+            &nbsp;&nbsp;&nbsp;
+            <label>Resultado:</label>
+            <label id="mostrarFrase"></label>
+        </div>
+        <hr>
+        <div style="text-align: center;">
+            <h1 style="text-align: center;">Quitar letras de una frase</h1>
+            <br>
+            <label>Ingrese la frase</label>
+            <input type="text" id="textQui">
+            <br><br>
+            <label>Ingrese las letras a quitar</label>
+            <input type="text"  id="letraQui">
+            <br><br>
+            <input type="button"id="suprimir" value="Suprimir">
+            &nbsp;&nbsp;&nbsp;
+            <label for="re2">Resultado:</label>
+            <label id="resultado"></label>
+        </div>
+        <br><br><br>
+    </main>
+</body>
+<script src="invertir.js"></script>
+<script src="quitar.js"></script>
+<script src="votos.js"></script>
+</html>
